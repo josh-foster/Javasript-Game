@@ -3,36 +3,94 @@
     padding: 0;
 }
 body{
-    background-color: black;
-    height: 100%;
-    width: 100%;
+    background-color: black;;
+    height: 100vh;
+    width: 100vw;
     overflow: hidden;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    
 
-    main{
-        
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        
-        article{
-            background-color: whitesmoke;
-            height: 20vw;
-            width: 33.3vw;
-            border-radius: 10vw;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            justify-content: space-around;
-            padding-top: 2%;
+    .game{
+        height: 500px;
+        width: 500px;
+        background-color: aliceblue;
 
-            p{
-                width: 80%;
-                text-align: center;
+        button{
+            height: 100px;
+            width: 100px;
+            opacity: 0.2;
+            transition: 0.2s;
+            
+            &:active{
+                opacity: 1;
             }
         }
-    }
+
+        .green{
+            background-color: chartreuse;
+        }
+
+        .blue{
+            background-color: cyan;
+        }
+
+        .purple{
+            background-color: darkmagenta;
+        }
+
+        .yellow{
+            background-color: yellow;
+        }
+        
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // main{
+        
+    //     width: 100vw;
+    //     height: 100vh;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+        
+        
+    //     article{
+    //         background-color: whitesmoke;
+    //         height: 20vw;
+    //         width: 33.3vw;
+    //         border-radius: 10vw;
+    //         display: flex;
+    //         flex-direction: column;
+    //         justify-content: center;
+    //         align-items: center;
+    //         justify-content: space-around;
+    //         padding-top: 2%;
+
+    //         p{
+    //             width: 80%;
+    //             text-align: center;
+    //         }
+    //     }
+    // }
+
+
+
 }
